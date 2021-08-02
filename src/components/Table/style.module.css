@@ -1,0 +1,10 @@
+.table {
+    border: 1px solid black;
+    border-spacing: 0 1em;
+    min-width: 100%;
+    padding: 8px;
+}
+
+.item {
+    margin-top: 8px;
+}

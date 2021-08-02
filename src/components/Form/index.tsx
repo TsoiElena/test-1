@@ -6,7 +6,7 @@ import style from './style.module.css'
 const Form: FC = () => {
     const dispatch = useDispatch()
     const [value, setValue] = useState<string>('')
-    const reg = /^[0-9\b ,;]+$/ //regeg for input (user can introduce only numbers and , ;)
+    const reg = /^[0-9\b ,;]+$/
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const {value} = e.target
         if (!value) return setValue('')

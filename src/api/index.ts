@@ -13,4 +13,5 @@ const Api = { //function 'get information from server'
     }
 }
 
+
 export default Api

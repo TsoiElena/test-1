@@ -51,4 +51,3 @@ export const resetTextItems = () => async (dispatch: Dispatch) => {
 type ActionsTypes = InferActionsTypes<typeof actions>
 
 export default textReducer
-

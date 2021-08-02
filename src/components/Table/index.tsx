@@ -21,3 +21,4 @@ const Table: FC = () => {
 }
 
 export default Table
+
